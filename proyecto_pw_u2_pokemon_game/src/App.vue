@@ -1,20 +1,22 @@
 <template>
 <div>
  
- <MostrarPokemon></MostrarPokemon>
+ 
+ <PokemonPage></PokemonPage>
 </div>
  
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
-import MostrarPokemon from './components/MostrarPokemon.vue'
+import PokemonPage from'@/components/PokemonPage.vue'
+import MostrarPokemon from '@/components/MostrarPokemon.vue'
 export default {
   name: 'App',
   components: {
     
-    MostrarPokemon
+    MostrarPokemon,
+    PokemonPage
 }
 }
 </script>
