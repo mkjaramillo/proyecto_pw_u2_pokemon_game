@@ -1,24 +1,25 @@
 <template>
-<div>
- 
- 
- <PokemonPage></PokemonPage>
-</div>
- 
+  <div>
+    
+      <img src="./assets/logo.png" alt="" />
+    
+   
+      <router-view></router-view>
+      <componente-picture></componente-picture>
+  
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import PokemonPage from'@/components/PokemonPage.vue'
-import MostrarPokemon from '@/components/MostrarPokemon.vue'
+
+import ComponentePicture from "../src/modulos/pokemon/componentes/componentePicture.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     
-    MostrarPokemon,
-    PokemonPage
-}
-}
+    ComponentePicture,
+  },
+};
 </script>
 
 <style>

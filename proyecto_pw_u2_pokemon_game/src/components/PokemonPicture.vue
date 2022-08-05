@@ -29,7 +29,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .pokemon-oculto {
   filter: brightness(0);
 }
